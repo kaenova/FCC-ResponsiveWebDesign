@@ -1,0 +1,38 @@
+:root {
+    font-family: Poppins, sans-serif;
+}
+
+figure {
+    display: grid;
+    grid-auto-rows: auto;
+}
+
+figure img {
+    justify-self: center;
+    max-width: 30em;
+}
+
+figure figcaption {
+    text-align: center;
+    font-size: small;
+}
+
+#title {
+    text-align: center;
+}
+
+#tribute-link {
+    display: grid;
+    grid-auto-rows: auto;
+    justify-content: center;
+}
+
+#tribute-info {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+p {
+    text-align: justify;
+    line-height: 2em;
+}
