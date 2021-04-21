@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repellendus aut enim dignissimos, accusantium cum quaerat animi officia magnam doloremque, ut, unde sit velit soluta id quae totam quo perferendis.</p>
+    </header>
+
+    <main>
+        <form id="survey-form" action="">
+            
+            <label for="name" id="name-label">
+                Name: <input type="text" name="" id="name" placeholder="Insert Your Full Name" required>
+            </label>
+            <label for="email" id="email-label">
+                E-mail: <input type="email" name="" id="email" placeholder="Insert Main Email" required>
+            </label>
+            <label for="number" id="number-label">
+                Number: <input type="number" name="" id="number" min="3" max="9" placeholder="Insert Phone Number">
+            </label>
+
+            <label for="dropdown">This is a dropdown: 
+            <select name="" id="dropdown">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            </label>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+            "></script>
+
+            <div>
+                <label for="rad_1">
+                    Youre Rad 1<input type="radio" name="rad" id="rad_1" value="bruh">
+                </label>
+                <label for="rad_2">
+                    Youre Rad 2<input type="radio" name="rad" id="rad_2" value="bruh">
+                </label>
+                <label for="rad_3">
+                    Youre Rad 3<input type="radio" name="rad2" id="rad_3" value="bruh">
+                </label>
+                <label for="rad_4">
+                    Youre Rad 4<input type="radio" name="rad2" id="rad_4" value="bruh">
+                </label>
+            </div>
+
+            <div>
+                <label for="check_1">
+                    Bruh1 <input type="checkbox" name="chek" id="check_1" value="bruh">
+                </label>
+                <label for="check_2">
+                    Bruh2 <input type="checkbox" name="chek" id="check_2" value="bruh2">
+                </label>
+                <label for="check_3">
+                    Bruh3 <input type="checkbox" name="chek" id="check_3" value="bruh3">
+                </label>
+
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <button type="submit" id="submit">Submit!</button>
+            
+        </form>
+    </main>    
+</body>
+</html>

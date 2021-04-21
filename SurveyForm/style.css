@@ -1,0 +1,29 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+header {
+    text-align: center;
+}
+
+main form{
+    line-height: 50px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+main form div {
+    justify-self: center;
+}
+
+main form label {
+    justify-self: center;
+}
+
+main form button {
+    margin-top: 30px;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-color: black;
+    color: whitesmoke;
+}
