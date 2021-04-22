@@ -8,5 +8,5 @@ Thanks to FreeCodeCamp for providing free courses.
 
 <p align="center">
 <br><br>
-<img src="https://cdn.discordapp.com/attachments/829581469936386079/830470865190912081/K-Gif.gif" height="6s0px"/>
+<img src="https://cdn.discordapp.com/attachments/829581469936386079/830470865190912081/K-Gif.gif" height="60px"/>
 </p>
