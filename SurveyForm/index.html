@@ -23,7 +23,7 @@
                 E-mail: <input type="email" name="" id="email" placeholder="Insert Main Email" required>
             </label>
             <label for="number" id="number-label">
-                Number: <input type="number" name="" id="number" min="3" max="9" placeholder="Insert Phone Number">
+                Number: <input type="number" name="" id="number" min="0" max="999999999" placeholder="Insert Phone Number"  maxlength="12" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
             </label>
 
             <label for="dropdown">This is a dropdown: 
