@@ -3,6 +3,7 @@ A Repository for FreeCodeCamp : Responsive Web Design Projects.
 Here's a link to checkout the project:  
 1. [Tribute Page](https://kaenova.github.io/FCC-ResponsiveWebDesign/TributePage/) 
 2. [Survey Form](https://kaenova.github.io/FCC-ResponsiveWebDesign/SurveyForm/)  
+3. [Product Landing Page](https://kaenova.github.io/FCC-ResponsiveWebDesign/ProductLandingPage/)  
 
 Thanks to FreeCodeCamp for providing free courses. 
 

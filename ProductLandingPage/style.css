@@ -1,0 +1,86 @@
+:root {
+    font-family: Poppins;
+}
+
+#header {
+    position : fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:#f7f7f7;
+}
+
+header img {
+    width: 5rem;
+    margin: 0 0 0 2rem;
+}
+
+header nav {
+    display: flex;
+    margin: 0 3rem 0 auto;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: large;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    padding: 0 0 0 1rem;
+    text-decoration: none;
+}
+
+
+main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main video {
+    align-self: center;
+    width: 80%;
+    max-width: 50rem;
+    margin: 2rem 0 2rem 0
+}
+
+main h1 {
+    align-self: center;
+}
+
+main p {
+    align-self: center;
+    padding: 0 3rem 0 3rem;
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    text-align: center;
+}
+
+main form label input {
+    width: 20rem;
+    height: 2rem;
+}
+
+main form button {
+    margin: 1rem 0 0 1rem;
+    width: 30%;
+}
+
+@media (min-width: 1500px) {
+    p {
+        font-size: larger;
+    }
+}
+
