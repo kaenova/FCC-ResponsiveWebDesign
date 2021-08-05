@@ -1,0 +1,28 @@
+body {
+    background-color: #EEEEEE;
+    padding: 0 3rem 0 3rem;
+}
+
+body main header {
+    text-align: justify;
+}
+
+body main header h1 {
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar a {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.main-section {
+    padding: 1rem 0 1rem 0;
+}
